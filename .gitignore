@@ -1,15 +1,31 @@
+# Built output
 *.iml
 .gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
 /build
 /captures
 .externalNativeBuild
 .cxx
+
+# Local environment files (contains SDK path — machine-specific, not portable)
 local.properties
+/local.properties
+
+# IDE files — IntelliJ / Android Studio
+/.idea/
+.idea/
+
+# Keystore files — NEVER commit signing keys to version control
+*.jks
+*.keystore
+*.pfx
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Kotlin / Java
+*.class
+*.log
+
+# Gradle wrapper jar (optional — include if you want reproducible builds offline)
+# gradle/wrapper/gradle-wrapper.jar
