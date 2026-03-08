@@ -31,7 +31,7 @@ A feature-rich, offline-first task manager for Android built with **Kotlin** and
 
 The app follows Clean Architecture with three layers:
 
-```
+```text
 UI Layer      →  Screens + ViewModels (Compose)
 Domain Layer  →  Models (Task, Category) + Repository Interfaces
 Data Layer    →  Room Database + DAOs + DataStore
